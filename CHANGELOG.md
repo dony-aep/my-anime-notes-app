@@ -1,0 +1,55 @@
+# Registro de Cambios - MyAnimeNotes
+
+## [2.0.0] - 2026-03-30
+
+### Añadido
+
+- Sincronización en la nube con Google Drive para respaldar y restaurar tu biblioteca
+- Inicio de sesión con cuenta de Google integrado en Ajustes
+- Opciones de restauración: combinar con datos locales o reemplazar completamente
+- Selector de estilo de color: Azul (por defecto), Monocromático y Neutral
+- Información de versión dinámica en la pantalla "Acerca de"
+
+### Cambiado
+
+- Rediseño completo de la interfaz con estilo Material 3 Expressive
+- Nueva pantalla de Inicio con tarjetas minimalistas y carrusel de recientes mejorado
+- Pantalla de Biblioteca con tarjetas redondeadas y barra de progreso visual
+- Pantalla de Estadísticas con indicadores de colores semánticos
+- Pantallas de Ajustes, Ayuda y Acerca de con nuevo diseño de tarjetas agrupadas
+- Validaciones mejoradas de progreso al agregar o editar animes
+- Tipografía y espaciado unificados en toda la aplicación
+
+### Seguridad
+
+- Manejo seguro de credenciales y datos de autenticación
+- Validación de operaciones de respaldo antes de confirmar cambios
+
+## [1.1.0] - 2025-09-20
+
+### Añadido
+
+- Modal para ver portadas de anime en pantalla completa con zoom interactivo
+- Botón flotante de "volver arriba" que aparece al hacer scroll
+- Icono de la app en la barra superior para ir directamente a "Acerca de"
+- Nueva opción para buscar actualizaciones desde Ajustes
+
+### Cambiado
+
+- Comportamiento de la barra superior para ocultarse al desplazarte hacia abajo y reaparecer al subir
+- Pantalla de Ajustes con mejor espaciado horizontal y secciones más organizadas
+- Efecto ripple (onda) en chips informativos de detalles de anime
+- Validaciones de archivo para aceptar solo JPG, JPEG, PNG y WEBP en imágenes locales
+- Mensajes de error más claros para temporada/episodio actual, URLs vacías y tipos de archivo no soportados
+
+### Corregido
+
+- Edición de animes completados con múltiples temporadas para evitar episodios incorrectos al reabrir el formulario
+
+## [1.0.0] - 2025-09-10
+
+### Añadido
+
+- Soporte inicial para dispositivos Android 8.0 en adelante
+- Personalización de apariencia con temas claro, oscuro y de sistema
+- Importación de lista de animes mediante archivo JSON desde la versión web

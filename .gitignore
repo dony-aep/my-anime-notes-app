@@ -1,0 +1,16 @@
+# ===========================================
+# Public repo: Only documentation files
+# ===========================================
+
+# Ignore everything by default
+*
+
+# Allow documentation files
+!.gitignore
+!README.md
+!CHANGELOG.md
+!LICENSE
+
+# Allow screenshots folder
+!screenshots/
+!screenshots/**
