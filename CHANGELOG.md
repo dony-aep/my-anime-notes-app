@@ -1,5 +1,24 @@
 # Registro de Cambios - MyAnimeNotes
 
+## [2.1.0] - 2026-04-13
+
+### Añadido
+
+- Auto-sincronización automática con Google Drive al modificar datos (debounce de 2 segundos)
+- Expiración de sesión por inactividad prolongada (120 minutos)
+- Reintento automático de autenticación ante tokens expirados (error 401)
+- Verificación silenciosa del estado del respaldo al abrir Ajustes
+- Información detallada del respaldo en Ajustes: cantidad de animes, tamaño y fecha
+- Foto de perfil de Google en la barra superior con indicador de sincronización animado
+- Mensaje "Sesión restaurada" al reconectar una sesión persistida
+- Acción "Verificar estado" en la sección de Google Drive de Ajustes
+
+### Cambiado
+
+- Rediseño completo de la sección Google Drive en Ajustes: encabezado con foto y datos del usuario, caja informativa del estado del respaldo y lista de acciones con iconos
+- Arquitectura de proveedores refactorizada con ChangeNotifierProxyProvider para conectar AnimeProvider y CloudSyncProvider
+- Servicio de sincronización refactorizado con manejo público de cliente autenticado y wrapper de reintento ante errores de autorización
+
 ## [2.0.0] - 2026-03-30
 
 ### Añadido
