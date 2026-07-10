@@ -1,5 +1,23 @@
 # Registro de Cambios - MyAnimeNotes
 
+## [3.1.0] - 2026-07-09
+
+### Nuevo
+
+- Autocompletado de títulos con el catálogo público Anime Cover Catalog al añadir o editar un anime: al elegir una sugerencia se rellenan automáticamente portada, tipo, demografía, temas, géneros y episodios
+- Sugerencias con miniatura y título en inglés en un menú flotante bajo el campo de título
+- Enlace al catálogo de portadas de alta calidad en la sección Portada
+
+### Mejorado
+
+- Formulario de añadir/editar reorganizado: Información → Portada → Clasificación → Temporadas → Progreso, alineado con la versión web
+- Sección "Clasificación" (antes "Categorización") con el orden Temas, Géneros y Género explícito
+- Textos del control de progreso más claros ("Definir progreso actual")
+
+### Corregido
+
+- La versión mostrada en "Acerca de" ahora se lee dinámicamente de la app en lugar de estar fija
+
 ## [3.0.0] - 2026-05-27
 
 ### Nuevo
