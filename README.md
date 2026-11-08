@@ -12,7 +12,7 @@ Aplicación para Android que te permite llevar el registro de los animes que est
 
 | Inicio | Biblioteca | Ficha de un anime |
 |:------:|:----------:|:-----------------:|
-| Qué seguir viendo y el episodio que te toca | Tus animes en pósters, con su progreso | Los episodios de cada temporada en una rejilla |
+| Qué seguir viendo y el próximo episodio | Tus animes en pósters, con su progreso | Los episodios de cada temporada en una rejilla |
 
 <p align="center">
   <img src="screenshots/04_estadisticas.png" width="250" alt="Estadísticas"/>
@@ -22,7 +22,7 @@ Aplicación para Android que te permite llevar el registro de los animes que est
 
 | Estadísticas | Destacados | Añadir un anime |
 |:------------:|:----------:|:---------------:|
-| Episodios vistos y lo que te queda por ver | Los que marcaste con la estrella | La ficha se rellena sola desde el catálogo |
+| Episodios vistos y lo que te queda por ver | Los que marcaste con la estrella | Lo eliges en el catálogo y se añade con su portada |
 
 Las capturas usan datos de demostración.
 
