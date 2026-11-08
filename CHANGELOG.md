@@ -1,5 +1,22 @@
 # Registro de Cambios - MyAnimeNotes
 
+## [4.1.0] - 2026-11-08
+
+Versión conjunta con la web 4.1.0: las dos sincronizan la lista con Drive solas y usan los mismos textos.
+
+### Nuevo
+
+- Elegir un anime en el catálogo lo añade directamente, con un aviso que ofrece «Editar». El resultado elegido ocupa una franja con su portada y los demás van en una tira; las temporadas de una serie salen juntas y se pueden añadir todas como un solo anime. La ficha queda para añadir a mano
+
+### Mejorado
+
+- Google Drive trae y fusiona la lista automáticamente al iniciar sesión y al volver a la app, sin pulsar «Traer la copia». Los cambios del teléfono y los de otros dispositivos se juntan antes de subir. Juntar una lista que nunca se sincronizó se confirma una vez, y si la sincronización quitaría cinco animes o más, enseña los cambios y espera tu confirmación
+- Traer, subir y cerrar sesión comparten una cola. Una copia que cambia antes de subir se fusiona y reintenta una vez, y tocar el progreso o la estrella conserva los cambios recién llegados
+- Con la sesión iniciada, «Borrar toda la lista» vacía también la copia de Drive, y la confirmación lo dice
+- Los textos son los mismos que en la web: «Episodio 6 visto», «Último episodio visto», «Próximo: episodio 6» y «Visto hasta el 6.». Los avisos dicen qué pasó («Cambios guardados.», «Frieren eliminado.») y los errores, qué falló
+- Eliminar un anime avisa del progreso que se pierde
+- Con la lista vacía, Inicio, Biblioteca, Estadísticas y Destacados usan los textos de la web, e Inicio dice con qué cuenta se traería la copia de Drive
+
 ## [4.0.0] - 2026-10-14
 
 Versión conjunta con la web 4.0.0: las dos pasan a compartir un formato de lista nuevo. La app, además, cambia de diseño entero.

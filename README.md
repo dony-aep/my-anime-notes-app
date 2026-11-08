@@ -29,12 +29,12 @@ Las capturas usan datos de demostración.
 ## Características
 
 - **Portada como protagonista**: Inicio propone qué seguir viendo en una tarjeta teñida del color de su portada, y Biblioteca es una cuadrícula de pósters con su progreso
-- **Seguimiento de progreso**: Marca el último episodio que viste en la rejilla de cada temporada, o pulsa «Ya vi el…» para dar por visto el que toca
-- **Añadir desde el catálogo**: Busca el anime en el catálogo de portadas y se rellenan solos la portada, el tipo, los géneros y los episodios
+- **Seguimiento de progreso**: Marca el último episodio que viste en la rejilla de cada temporada, o pulsa «Episodio 6 visto» para dar por visto el que toca
+- **Añadir desde el catálogo**: Busca el anime en el catálogo de portadas y se añade con su portada, tipo, géneros y episodios, sin rellenar la ficha
 - **Búsqueda y filtros**: Busca dentro de tu biblioteca, marca varios géneros a la vez y filtra por estado, tipo y demografía
 - **Estadísticas**: Cuántos episodios llevas vistos y cuántos te quedan, por estado y por género
 - **Destacados**: Marca tus animes con la estrella para tenerlos a mano
-- **Copia en Google Drive**: Tu lista se sube sola a Drive, y la misma copia se abre en la [versión web](https://m3myanimenotes.vercel.app/)
+- **Copia en Google Drive**: Tu lista se sincroniza sola con Drive, y lo que cambias en la [versión web](https://m3myanimenotes.vercel.app/) o en otro teléfono llega sin hacer nada
 - **Temas personalizables**: Modo claro, oscuro y automático según el sistema
 - **Importar/Exportar**: Guarda tu lista en un archivo JSON, el mismo formato que usa la web, y júntala con otra al importarla
 
